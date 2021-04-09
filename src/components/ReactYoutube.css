@@ -1,0 +1,84 @@
+.ReactYoutube {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  grid-template-areas: "v c";
+}
+.Video {
+  grid-area: v;
+  width: 100%;
+}
+.Caption {
+  grid-area: c;
+  min-height: 200px;
+  width: 100%;
+  margin: 0px auto;
+  margin-left: -7px;
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  height: 390px;
+
+  padding: 150px;
+}
+.Caption > h1 {
+  flex-direction: row;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: ivory;
+}
+@media screen and (max-width: 800px) {
+  .ReactYoutube {
+    grid-template-areas: "v v" "c c";
+  }
+  .Caption > h1 {
+    flex-direction: row;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: ivory;
+  }
+}
+@media screen and (max-width: 375px) {
+  .ReactYoutube {
+    grid-template-areas: "v v" "c c";
+    margin: 12px 0px 0px 0px;
+    width: 100%;
+  }
+  .Caption > h1 {
+    flex-direction: row;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: ivory;
+  }
+}
+@media screen and (max-width: 411px) {
+  .ReactYoutube {
+    grid-template-areas: "v v" "c c";
+    margin: 12px 0px 0px 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ReactYoutube {
+    grid-template-areas: "v  v" "c c ";
+    margin: 12px 0px 0px 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .ReactYoutube {
+    grid-template-areas: "v v" "c c ";
+    margin: 12px 0px 0px 12px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,304 @@
+.Owner {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: grid;
+  margin-left: 150px;
+  margin-right: 150px;
+
+  grid-template-columns: 30% 70%;
+  /* background: black; */
+  grid-template-areas: "v c";
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Profile {
+  color: white;
+
+  grid-area: v;
+
+  /* border: 1px solid black; */
+}
+.Profile > img {
+  height: 450px;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.Info {
+  width: 100%;
+  grid-area: c;
+}
+.Info > h1 {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-top: 150px;
+  font-size: 1.1rem;
+  color: ivory;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: start;
+  text-align: center;
+}
+.owner_buttons {
+  margin-left: 290px;
+  margin-top: 20px;
+}
+.owner_button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 5px;
+
+  background-color: rgb(51, 51, 51, 0.5);
+}
+
+.owner_button:hover {
+  color: #000;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.2s;
+}
+@media screen and (max-width: 1400px) {
+  .Owner {
+  }
+  .Profile > img {
+    margin-left: 30px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 0.8rem;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+
+    margin-top: 190px;
+  }
+  .Info {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .Owner {
+  }
+  .Profile > img {
+    margin-left: 20px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 0.7rem;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+
+    margin-top: 190px;
+  }
+  .Info {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .Owner {
+  }
+  .Profile > img {
+    margin-left: 10px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 0.7rem;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 190px;
+  }
+  .Info {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Owner {
+  }
+  .Profile > img {
+    margin-left: 10px;
+    width: 290px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 0.7rem;
+    margin: 50px 120px 20px 120px;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 190px;
+  }
+  .Info {
+    margin-left: 30px;
+  }
+  .owner_buttons {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .Owner {
+    grid-template-areas: "v v" "c c";
+    height: 930px;
+  }
+  .Profile > img {
+    margin-left: 80px;
+    width: 290px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 1.1rem;
+
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Info {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Owner {
+    grid-template-areas: "v v" "c c";
+    height: 930px;
+  }
+  .Profile > img {
+    margin-left: 80px;
+    width: 290px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 1.1rem;
+
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Info {
+    margin-left: 20px;
+  }
+  .owner_buttons {
+    margin: 50px 50px 50px 120px;
+  }
+}
+@media screen and (max-width: 658px) {
+  .Owner {
+    grid-template-areas: "v v" "c c";
+    height: 930px;
+    width: 350px;
+    margin-left: 20px;
+  }
+  .Profile > img {
+    margin-left: 30px;
+    width: 290px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 1.1rem;
+    margin-left: 100px;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Info {
+    margin-left: 20px;
+  }
+  .owner_buttons {
+    margin: 50px 50px 50px 60px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .Owner {
+    grid-template-areas: "v v" "c c";
+    height: 930px;
+    width: 350px;
+    margin-left: 20px;
+  }
+  .Profile > img {
+    margin-left: 30px;
+    width: 290px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 1.1rem;
+    margin-left: 100px;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Info {
+    margin-left: 20px;
+  }
+  .owner_buttons {
+    margin: 50px 50px 50px 90px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .Owner {
+    grid-template-areas: "v v" "c c";
+    height: 930px;
+    width: 350px;
+    margin-left: 20px;
+  }
+  .Profile > img {
+    margin-left: 30px;
+    width: 290px;
+  }
+  .Info > h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    font-size: 1.1rem;
+    margin-left: 100px;
+    color: ivory;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Info {
+    margin-left: 20px;
+  }
+  .owner_buttons {
+    margin: 50px 50px 50px 90px;
+  }
+}

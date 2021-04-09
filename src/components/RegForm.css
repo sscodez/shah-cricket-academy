@@ -1,0 +1,450 @@
+.Form_Reg {
+  margin: 80px 120px 120px 120px;
+  maxwidth: 1500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+}
+.Heading {
+  margin-top: 12px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 16px;
+}
+.Form_text {
+  height: 100px;
+}
+.Form-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #fff;
+  margin-left: 120px;
+}
+.Form-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 80%;
+  border: none;
+
+  margin-left: 120px;
+}
+.Form-input-date {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 80%;
+  border: none;
+  margin-left: 120px;
+}
+.Form-input-btn {
+  width: 50%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  margin-left: 300px;
+  margin-right: 220px;
+  margin-bottom: 120px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.Form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.Form_text p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 960px) {
+  .Heading {
+    margin-top: 12px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+  }
+  .Form_text {
+    height: 100px;
+  }
+  .Form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+    margin-left: 70px;
+  }
+  .Form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 80%;
+    border: none;
+    margin-left: 70px;
+  }
+  .Form-input-date {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 80%;
+    border: none;
+    margin-left: 70px;
+  }
+  .Form-input-btn {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .Form_text p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Form_Reg {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+      90deg,
+      rgb(40, 40, 40) 0%,
+      rgb(17, 17, 17) 100%
+    );
+    width: 80%;
+  }
+  .Heading {
+    margin-top: 12px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+  }
+  .Form_text {
+    height: 100px;
+  }
+  .Form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+    margin-left: 70px;
+  }
+  .Form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 80%;
+    border: none;
+    margin-left: 70px;
+  }
+  .Form-input-date {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 80%;
+    border: none;
+    margin-left: 70px;
+  }
+  .Form-input-btn {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 180px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .Form_text p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Form_Reg {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+      90deg,
+      rgb(40, 40, 40) 0%,
+      rgb(17, 17, 17) 100%
+    );
+    width: 80%;
+  }
+  .Heading {
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+  }
+  .Form_text {
+    height: 100px;
+  }
+  .Form-label {
+    display: inline-block;
+    font-size: 0.6rem;
+    margin-bottom: 6px;
+    color: #fff;
+    margin-left: 40px;
+  }
+  .Form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    margin-left: 40px;
+  }
+  .Form-input-date {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    margin-left: 40px;
+  }
+  .Form-input-btn {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .Form_text p {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Form_Reg {
+    margin: 10px 10px 10px 10px;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+      90deg,
+      rgb(40, 40, 40) 0%,
+      rgb(17, 17, 17) 100%
+    );
+    width: 350px;
+  }
+  .Heading {
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+  }
+  .Form_text {
+    height: 100px;
+  }
+  .Form-label {
+    display: inline-block;
+    font-size: 0.6rem;
+    margin-bottom: 6px;
+    color: #fff;
+    margin-left: 40px;
+  }
+  .Form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    margin-left: 40px;
+  }
+  .Form-input-date {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    margin-left: 40px;
+  }
+  .Form-input-btn {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .Form_text p {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Form_Reg {
+    margin: 10px 10px 10px 30px;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+      90deg,
+      rgb(40, 40, 40) 0%,
+      rgb(17, 17, 17) 100%
+    );
+    width: 350px;
+  }
+  .Heading {
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+  }
+  .Form_text {
+    height: 100px;
+  }
+  .Form-label {
+    display: inline-block;
+    font-size: 0.6rem;
+    margin-bottom: 6px;
+    color: #fff;
+    margin-left: 40px;
+  }
+  .Form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    margin-left: 40px;
+  }
+  .Form-input-date {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    margin-left: 40px;
+  }
+  .Form-input-btn {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .Form_text p {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+}
